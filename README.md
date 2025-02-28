@@ -7,7 +7,7 @@ The multilingual BERT ensemble system described herein produces [GND subject lab
 ## Train
 The [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced/) software package was used to train BERT models for GND classification based on examples from the TIB "All Subjects" dataset.
 
-## Testing Folder
+## Test
 This code was developed to test which set of models contributed to the highest scores using 1000 rows of held out data as the gold standard.
 
 ## Inference
