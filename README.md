@@ -13,5 +13,5 @@ This code was developed to test which set of models contributed to the highest s
 ## Inference
 Inference code generates labels and aggregates label confidence scores so the BERT models work as an ensemble during inference.
 
-# GitHub CoPilot Attribution
+## GitHub CoPilot Attribution
 Jim was assisted by [GitHub Copilot](https://copilot.github.com/), for development of the inference and testing code.
