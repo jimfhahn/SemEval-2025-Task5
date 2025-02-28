@@ -1,5 +1,5 @@
-# Jim-at-SemEval-2025-Task-5 ( https://github.com/jd-coderepos/llms4subjects/ )
-The SemEval-2025 Task 5 calls for the utilization of LLM capabilities to apply controlled subject labels to record descriptions in the multilingual library collection of the [German National Library of Science and Technology](https://en.wikipedia.org/wiki/German_National_Library_of_Science_and_Technology). 
+# Jim-at-SemEval-2025-Task-5
+The [SemEval-2025 Task 5](https://github.com/jd-coderepos/llms4subjects/) calls for the utilization of LLM capabilities to apply controlled subject labels to record descriptions in the multilingual library collection of the [German National Library of Science and Technology](https://en.wikipedia.org/wiki/German_National_Library_of_Science_and_Technology). 
 
 ## System Overview
 The multilingual BERT ensemble system described herein produces [GND subject labels](https://en.wikipedia.org/wiki/Integrated_Authority_File) for various record types, including articles, books, conference papers, reports, and theses.
