@@ -1,12 +1,17 @@
-# Jim-at-SemEval-2025-Task-5
-The SemEval-2025 Task 5 calls for the utilization of LLM capabilities to apply controlled subject labels to record descriptions in the multilingual library collection of the German National Library of Science and Technology. 
-## System Overview
-The multilingual BERT ensemble system described herein produces subject labels for various record types, including articles, books, conference papers, reports, and theses.
-## Training Folder
-### Training utilized the AutoTrain Advanced software package.
+# Jim-at-SemEval-2025-Task-5 ( https://github.com/jd-coderepos/llms4subjects/ )
+The SemEval-2025 Task 5 calls for the utilization of LLM capabilities to apply controlled subject labels to record descriptions in the multilingual library collection of the [German National Library of Science and Technology](https://en.wikipedia.org/wiki/German_National_Library_of_Science_and_Technology). 
 
-## Inference Folder
-### Inference aggregates labels score so the BERT models act as an ensemble.
+## System Overview
+The multilingual BERT ensemble system described herein produces [GND subject labels](https://en.wikipedia.org/wiki/Integrated_Authority_File) for various record types, including articles, books, conference papers, reports, and theses.
+
+## Train
+The [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced/) software package was used to train BERT models for GND classification based on examples from the TIB "All Subjects" dataset.
 
 ## Testing Folder
-### This code was developed to test which models contributed to the highest scores using data held out from training.
+This code was developed to test which set of models contributed to the highest scores using 1000 rows of held out data as the gold standard.
+
+## Inference
+Inference code generates labels and aggregates label confidence scores so the BERT models work as an ensemble during inference.
+
+# GitHub CoPilot Attribution
+Jim was assisted by [GitHub Copilot](https://copilot.github.com/), for development of the inference and testing code.
